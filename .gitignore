@@ -1,0 +1,54 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Node
+appointment-app/node_modules
+appointment-app/npm-debug.log
+appointment-app/yarn-error.log
+
+book-management/node_modules
+book-management/npm-debug.log
+book-management/yarn-error.log
+
+book-management-system/node_modules
+book-management-system/npm-debug.log
+book-management-system/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+appointment-app/.vscode/*
+appointment-app/!.vscode/settings.json
+appointment-app/!.vscode/tasks.json
+appointment-app/!.vscode/launch.json
+appointment-app/!.vscode/extensions.json
+appointment-app/.history/*
+
+book-management/.vscode/*
+book-management/!.vscode/settings.json
+book-management/!.vscode/tasks.json
+book-management/!.vscode/launch.json
+book-management/!.vscode/extensions.json
+book-management/.history/*
+
+book-management-system/.vscode/*
+book-management-system/!.vscode/settings.json
+book-management-system/!.vscode/tasks.json
+book-management-system/!.vscode/launch.json
+book-management-system/!.vscode/extensions.json
+book-management-system/.history/*
+
+# Miscellaneous
+appointment-app/.angular/cache
+book-management/.angular/cache
+book-management-system/.angular/cache
+
+# System files
+.DS_Store
+Thumbs.db
